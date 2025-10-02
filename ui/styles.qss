@@ -1,0 +1,58 @@
+QMainWindow {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #2c3e50;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #34495e;
+}
+
+QLabel {
+    color: #ecf0f1;
+    font-size: 12pt;
+}
+
+QComboBox, QDoubleSpinBox {
+    background-color: #1e272e;
+    border: 1px solid #57606f;
+    border-radius: 6px;
+    padding: 4px;
+    color: #f1f2f6;
+}
+
+QTableWidget {
+    background-color: #2f3640;
+    gridline-color: #636e72;
+    color: #dcdde1;
+}
+
+QMessageBox {
+    background-color: #1e1e1e;   /* Dark background */
+    color: #ffffff;              /* White text */
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+QMessageBox QLabel {
+    color: #f1f1f1;
+    font-size: 12pt;
+}
+
+QMessageBox QPushButton {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #34495e;
+}
